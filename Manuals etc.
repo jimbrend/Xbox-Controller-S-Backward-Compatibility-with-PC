@@ -1,0 +1,71 @@
+## Xbox Controller S Manual and extra notes: 
+
+For thine reference on controllers, 
+
+Any feedback on first supported controllers welcome, 
+
+I'm leanin' toward the xbox controller S specifically or an Xbox 360 controller, or thinkin' Logitech, I surmise this would be most convenient for such a project like this, either picking only one or using a specific third-party controller manufacturer:
+
+![016BB3D0-CB34-4698-81C1-82034DD6C3D5](https://github.com/getumbrel/umbrel-apps/assets/8608634/a76fd351-b7e1-42ce-b7e5-b55baf7e986c)
+
+[And so it begins...](https://youtu.be/ZcLQoWlz4l8?si=-MEoLzGIOj82dExH)
+(Fun factoid/trivia, every time you pressed start on the Fable II menu screen it would say "And so our story begins," no matter how far you were in the game it would say that every time when loading passed the startup menu lol)
+
+// extra notes 2
+to note as well, if someone could self-host something like a [GTA wikia](https://gta.fandom.com/wiki/Grand_Theft_Auto_V) / a game's wikia website easily from a certain date, 
+or some companion applications (so they're always easily accessible)- technically a store that is bitrefill-esque could be hosted on Umbrel, perhaps driving a % of sales of things like Shark Cards, which could potentially be more than just a nominal revenue stream!  Depending on if you could get a good amount of gamers/streamers to adopt the tools - perhaps through G2A similar grassroots marketing with smaller-medium creators for certain applicable use-cases...
+Maybe I can experiment with an SSO page with wikia / vaultwarden / or a heimdall page that links out to Streamelements/Twitch Dashboard/multi-stream dashboard (documenting for my reference here the best multi-stream tool): I think I found what is the reliable multi-tool OBS free multi-stream plugin: 
+https://www.youtube.com/watch?v=8m-IQfA_LV8&pp=ygUYbXVsdGkgc3RyZWFtIHR3aXRjaCB0b29s
+(installation and source in the details: https://obsproject.com/forum/resources/multiple-rtmp-outputs-plugin.964/)
+So the idea would be a streamelements type interface (which are all overlays hosted somewhere so a user doesn't lose them), but instead for every other app under the sun-- 
+
+edit:
+Mainly, allowing a streamer to manage everything from one screen easily and have access to all their assets in one place.
+
+And play a quality, a flight to quality retro experience, that is indubitably awesome.
+
+//extra notes 3
+
+i'm just gonna take this PR over since it was easier than creating a new one and throw in a submission for a game/likely starting off as a community store first,
+For my own workflow though > PR to Community App > bring in Docker Package Template, 
+
+So just an idea, logging it here for my own continuity's sake:
+
+I have here a structure of what I had drawn up for release window for possible games packaged on Umbrel:
+
+![9AAC8863-934F-475E-973F-79EABECD11BE_4_5005_c](https://github.com/getumbrel/umbrel-apps/assets/8608634/4008133c-8af0-4d27-b7bc-d4b332cca9a5)
+
+
+I heard a sentiment from djwheat (https://twitter.com/djWHEAT) once say an achievement/constant struggle would be a black box for gaming, in essence what some seem to already accomplish with a rolling server chassis with every console that has been released inside - complete with capture cards so a content creator can do something easily like capture a Nintendo Switch game or Street Fighter and play it through OBS to their stream rendering PC via something like more popularly an Elgato card or my preference since has been an Avermedia Live or a great cost to value that outputs the highest resolution for stream…    
+        
+The idea is to package a few games that align with the current spec and release them in some type of spin off store / game category / community store / as a retro games store with these optimized - mostly curated game selections, I believe I have here ([torrent](https://torrent5.net/en/1775-wolfenstein.html) for testing purposes) where I got the Wolfenstein 2009 title (for some reason there was a digital rights issue and you can’t buy this game anywhere right now), my drawing has them ordered in what I believe would be great “launch titles” lining up with any onboard graphics included in iterations of Umbrel onboard graphics capability (increasing the form factor of the device would help or simply adding something like an NVIDIA 1050 Ti but obviously lots of implications there, imo it would be cool to have a slightly larger form factor and a power button on the top for an Umbrel gaming device)...
+    
+I think the use-case here is viable because, most retro game devices are convoluted and unreliable devices (even some still with composite cables requirements)…  Ideally, this would evolve into Umbrel’s own DRM, or digital rights management platform similarly to EA Play.    Licensing would be a lot of legwork, however something like an NVIDIA cloud play partnership could help - simply by reducing clicks to launch a game like an Xbox Classic, but I would be mostly against this type of implementation for NVIDIA cloudplay because remote play through browser utilizing cloud graphics would be redundant or impractical imo, and I don’t see the issue of high ms ping, or high input times being resolved in the near future which is really annoying about GeForce NOW.
+
+   My milestone will likely be to package just Tomb Raider Legends as a first title, possibly along with Wolfenstein 2009 or others later.  Then the other titles listed, or selecting ideal ones that may be fun to play off your Umbrel with no input delay, and expand into a [romm](https://github.com/getumbrel/umbrel-apps/pull/756) similar store.  The benefit here I find would be: when you load up an older title often controls are not set correct, resolution is incorrect, and there’s other nuances...
+   
+   Whereas optimizing each title you could see the nice box art right in the store and launch it immediately in one-click, then even use something like universal gamepad software- to play something like Splinter Cell natively with an Xbox Controller S.  #nostalgia
+ Resources: 
+ https://www.s-config.com/xbcd-original-xbox-controllers-win10/
+ https://www.reddit.com/r/XboxSeriesX/comments/zk9bb5/tom_clancys_splinter_cell_no_white_or_black/
+ 
+//box art ideas
+ 
+ To recap milestone I will work on is: 
+ 
+ Tomb Raider Legends 
+ (I like the obstacle course where Lara Croft can swim around and jump through her mansion)
+ 
+ Also, in Spider-Man 3 on 360 I believe there was a similar obstacle course, gonna try and get that going too
+ 
+ I can re-close this and then try and fork it into my community template too - consolidating my notes here
+ 
+ One more thing to be implemented is a https://www.lightnite.io/ similar earn as you play - someone could even set a goal like "I will fund 50,000 sats for a cause" or similarly - either as a fundraiser or affiliate type marketing, other types of creative ways to stream sat ideas insert here
+ 
+
+ _This could also help spawn of some new indie scene with all taproot asset enabled and LN402 enabled games!!
+ 
+ If anyone is interested in developing something like this please reach out to me and would be happy to start something up/collaborate!_
+
+
+
